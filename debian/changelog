@@ -1,3 +1,10 @@
+gnome-terminal (3.18.3-linuxmint1) sarah; urgency=medium
+
+  * Bring back the ability to open tabs/windows from the context menu
+  * Changed default profile values
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 21 May 2016 13:17:51 +0100
+
 gnome-terminal (3.18.3-1ubuntu1) xenial; urgency=low
 
   * Merge with Debian, remaining Ubuntu changes:
