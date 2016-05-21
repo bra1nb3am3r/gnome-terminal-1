@@ -24,11 +24,6 @@
 -->
 <schemalist gettext-domain="gnome-terminal">
 
-   <enum id='org.gnome.Terminal.NewTerminalMode'>
-    <value nick='window' value='0'/>
-    <value nick='tab' value='1'/>
-  </enum>
-
    <enum id='org.gnome.Terminal.ScrollbarPolicy'>
     <value nick='always' value='0'/>
     <!-- <value nick='automatic' value='1'/> -->
@@ -660,11 +655,6 @@
     <key name="default-show-menubar" type="b">
       <default>true</default>
       <summary>Whether to show the menubar in new windows</summary>
-    </key>
-
-    <key name="new-terminal-mode" enum="org.gnome.Terminal.NewTerminalMode">
-      <default>'window'</default>
-      <summary>Whether to open new terminals as windows or tabs</summary>
     </key>
 
     <key name="tab-policy" enum="org.gnome.Terminal.TabsbarPolicy">
