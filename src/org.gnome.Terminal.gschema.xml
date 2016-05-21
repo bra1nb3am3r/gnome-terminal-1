@@ -132,7 +132,7 @@
       <description>If true, allow applications in the terminal to make text boldface.</description>
     </key>
     <key name="audible-bell" type="b">
-      <default>true</default>
+      <default>false</default>
       <summary>Whether to ring the terminal bell</summary>
     </key>
     <key name="word-char-exceptions" type="ms">
@@ -166,7 +166,7 @@
       <description>Number of scrollback lines to keep around. You can scroll back in the terminal by this number of lines; lines that don't fit in the scrollback are discarded. If scrollback_unlimited is true, this value is ignored.</description>
     </key>
     <key name="scrollback-unlimited" type="b">
-      <default>false</default>
+      <default>true</default>
       <summary>Whether an unlimited number of lines should be kept in scrollback</summary>
       <description>If true, scrollback lines will never be discarded. The scrollback history is stored on disk temporarily, so this may cause the system to run out of disk space if there is a lot of output to the terminal.</description>
     </key>
@@ -330,16 +330,16 @@
       <summary>Whether ambiguous-width characters are narrow or wide when using UTF-8 encoding</summary>
     </key>
     <key name="use-transparent-background" type="b">
-      <default>false</default>
+      <default>true</default>
       <summary>Whether to use a transparent background</summary>
     </key>
     <key name="use-theme-transparency" type="b">
-      <default>true</default>
+      <default>false</default>
       <summary>Whether to use the value of TerminalScreen-background-darkness,
           if available, from the theme for the transparency value.</summary>
     </key>
     <key name="background-transparency-percent" type="i">
-      <default>50</default>
+      <default>5</default>
       <summary>Adjust the amount of transparency</summary>
       <description>A value between 0 and 100, where 0 is opaque and 100 is fully transparent.</description>
     </key>
