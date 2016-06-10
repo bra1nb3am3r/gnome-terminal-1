@@ -14,7 +14,7 @@ X-GNOME-Bugzilla-Version=@VERSION@
 Categories=GNOME;GTK;System;TerminalEmulator;
 StartupNotify=true
 X-GNOME-SingleWindow=false
-OnlyShowIn=GNOME;Unity;
+OnlyShowIn=GNOME;Unity;X-Cinnamon;
 Actions=New
 
 [Desktop Action New]
