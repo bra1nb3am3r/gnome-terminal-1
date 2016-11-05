@@ -1,3 +1,13 @@
+gnome-terminal (3.18.3-linuxmint2) serena; urgency=medium
+
+  [ gogogogi ]
+  * Update hr.po
+
+  [ marcus-lundgren ]
+  * Fix duplicated Gnome Terminal icon in Plank
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 05 Nov 2016 16:03:14 +0000
+
 gnome-terminal (3.18.3-linuxmint1) sarah; urgency=medium
 
   * Bring back the ability to open tabs/windows from the context menu
